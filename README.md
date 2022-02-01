@@ -1,6 +1,6 @@
 # 405Lab2
 
-This repository contains lab 2
+This repository contains lab 2. 
 motor go brrrr
 
 ## Gitting It Done
