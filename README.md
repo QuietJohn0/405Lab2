@@ -18,4 +18,4 @@ This repository contains lab 2
 
 ## Website Link
 
-* [Lab02 Website](https://danrmunic.github.io/405Lab2/Lab0/docs/index.html)
+* [Lab02 Website](https://quietjohn0.github.io/405Lab2/index.html)
