@@ -5,11 +5,16 @@ motor go brrrr
 
 ## Gitting It Done
 
-This lab requireds us to tune our 
-
+This lab requireds us to tune our controller to optimise the responce of the motor. We used just a Kp controller units of %duty/radian. To tune our Kp value we started with a reasonable Kp of 10 %duty/radian since it would need to be 10 radians to have a responce of a duty of 100%. See Figure 1.
 ![Kpof10](Kp10.png)
+__Figure 1:__ Controller Responce, Kp = 10
+Having the Kp as 10 resulted is a responce with a large steady state error of  . To fix this we increased our Kp = 20 %duty/radian. 
 ![Kpof20](Kp20.png)
+__Figure 2:__ Controller Responce, Kp = 20
+Having the Kp as 20 resulted is a responce with a slightly smaller steady state error we were still not satisfied of  . To fix this we increased our Kp = 50 %duty/radian. 
 ![Kpof50](Kp50.png)
+__Figure 3:__ Controller Responce, Kp = 50
+Having our Kp equal 50 resulted in vertually no steady state error and also no overshoot. Kp of 50 is our final controller preportional gain. 
 
 ### Classes
 
